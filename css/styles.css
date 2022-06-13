@@ -1,0 +1,121 @@
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div.leftbox{
+    vertical-align: top;
+}
+
+div#content div.rightbox{
+    margin: 35px;
+}
+
+header{
+    background-color: #C9CACA;
+}
+
+
+section p.welcome{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 25px;
+    font-family: Verdana, Cursiva, serif;
+
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+
+    padding: 15px;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+section p.chat{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 25px;
+    font-family: Verdana, Cursiva, serif;
+
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+
+    border: 2px solid #008372;
+    padding: 15px;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+
+
+
+a.debut{
+    color: darkcyan;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav.menu ul li.btn{
+    list-style-type: nome;
+    display: inline-block;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav.menu ul li.btn1{
+    list-style-type: nome;
+    display: inline-block;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+
+nav.menu ul li.btn a{
+    color: black;
+    background-color: #008372;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu ul li.btn1 a{
+    color: black;
+    background-color: #008372;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu ul li.btn:hover a{
+    color: #008372;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+nav.menu ul li.btn1 a{
+    color: black;
+    background-color: #008372;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu ul li.btn1:hover a{
+    color: #008372;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+footer{
+    padding: 20px;
+    color:black;
+}
